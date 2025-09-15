@@ -1,0 +1,94 @@
+.st-container {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background: linear-gradient(to right, #f8f9fa, #eef2f3);
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Hero Section */
+.st-hero {
+  background: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644") center/cover no-repeat;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.st-hero-overlay {
+  background: linear-gradient(rgba(42, 40, 44, 0.55),rgba(115, 192, 218, 0.55));
+  padding: 2rem;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.st-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #a4e9fa;
+}
+
+.st-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Testimonials Cards */
+.st-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.st-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.st-card:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+.st-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  border: 3px solid #42232b;
+}
+
+.st-quote {
+  font-size: 1.5rem;
+  color: #42232b;
+  margin-bottom: 0.8rem;
+}
+
+.st-feedback {
+  font-size: 0.95rem;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.st-name {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Footer */
+.st-footer {
+background:linear-gradient(135deg, #5890c5, #42232b)!important;
+  color: #fff;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 15px 15px 0 0;
+}

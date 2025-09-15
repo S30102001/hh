@@ -1,0 +1,67 @@
+/* الخلفية */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1f1f2e, #3a3a5c);
+  background-image: url('https://images.unsplash.com/photo-1581091215365-8f33f2b6e0ee?auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* البطاقة */
+.login-card {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  width: 350px;
+  text-align: center;
+  color: #fff;
+}
+
+/* العنوان */
+.login-card h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #00d4ff;
+}
+
+/* الحقول */
+.login-card input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* زر الدخول */
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #00d4ff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-card button:hover {
+  background: #00b4cc;
+  transform: translateY(-2px);
+}
+
+/* responsive */
+@media (max-width: 400px) {
+  .login-card {
+    width: 90%;
+    padding: 30px 20px;
+  }
+}
